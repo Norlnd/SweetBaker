@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash"
-    android:id="@+id/splash_screen">
+    android:id="@+id/splash_screen"
+    android:background="@drawable/splash">
+
 
     <ImageView
         android:layout_width="250dp"
@@ -15,6 +17,8 @@
         android:layout_centerVertical="true"
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/flickr"/>
+        android:src="@drawable/logo"
+        />
+
 
 </RelativeLayout>
